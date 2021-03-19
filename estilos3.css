@@ -1,0 +1,360 @@
+.papa{
+position: absolute; 
+top:50px; 
+left:376px;
+width:900px; 
+height: 1100px; 
+background: linear-gradient(to bottom, #EC0707,#BB1C06, #CB0B0B,#210202);
+}
+.cuadro{
+	position: absolute;
+top:50px; 
+left:600px;
+width:420px; 
+height: 30px; 
+background: linear-gradient(to right, yellow, #767608)
+
+}
+@font-face{
+	font-family: titulo;
+	src: url(pastaza.ttf);
+}
+.cuadro2{
+	position: absolute;
+top:1120px; 
+left:615px;
+width:420px; 
+height: 30px; 
+background: linear-gradient(to right, #767608, yellow)
+}
+
+.titulo{
+	position: absolute;
+	top:90px; 
+    left:595px;
+    font-family: titulo; 
+   background: -webkit-linear-gradient(yellow,#767608);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    font-size: 100px;
+}
+@font-face{
+	font-family: minititulo;
+	src: url(minititulo.ttf);
+}
+.minititulo{
+	position: absolute;
+	top:195px; 
+    left:690px;
+    font-family: minititulo; 
+    background: -webkit-linear-gradient(yellow,#767608);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+@font-face{
+	font-family: jojo;
+	src: url(jojo.ttf);
+}
+.jojo{
+	position: absolute;
+	top:300px; 
+    left:540px;
+    font-family: jojo; 
+    background: -webkit-linear-gradient(yellow,#767608);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    font-size: 30px;
+
+}
+@font-face{
+	font-family: jaja;
+	src: url(jaja.ttf);
+}
+@font-face{
+	font-family: ban;
+	src: url(banderitas.ttf);
+	}
+.jaja{
+	position: absolute;
+	top:360px; 
+    left:650px;
+    font-family: jaja; 
+    color: white;
+    font-size: 50px;
+}
+.jeje{
+	position: absolute;
+	top:383px; 
+    left:580px;
+    font-family: jaja; 
+    color: white;
+    font-size: 100px;
+}
+.hojas{
+	position: absolute;
+    top:150px; 
+    left:0px;
+    width:1000px; 
+height: 800px;
+    background: url("hojass.png");
+    background-size: cover;
+    transform: rotate(90deg);
+    z-index: 1;
+}
+.hojas2{
+	position: absolute;
+    top:170px; 
+    left:650px;
+    width:1000px; 
+height: 800px;
+    background: url("hojass.png");
+    background-size: cover;
+    transform: rotate(270deg);
+    z-index: 1;
+}
+.juju{
+	position: absolute;
+	top:510px; 
+    left:608px;
+    font-family: jojo; 
+     background: -webkit-linear-gradient(yellow,#767608);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    font-size: 23px;
+}
+.juju2{
+	position: absolute;
+	top:550px; 
+    left:608px;
+    font-family: jojo; 
+     background: -webkit-linear-gradient(yellow,#767608);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+.tambor{
+    position: absolute;
+    top:580px; 
+    left:615px;
+    width:400px; 
+height: 400px;
+    background: url("tambor.png");
+    background-size: cover;
+}
+.gui{
+    position: absolute;
+    top:620px; 
+    left:505px;
+    width:550px; 
+height: 270px;
+    background: url("guitarra.png");
+    background-size: cover;
+    transform: rotate(45deg);
+}
+.pito{
+    position: absolute;
+    top:670px; 
+    left:750px;
+    width:100px; 
+height: 100px;
+    background: url("pito.png");
+    background-size: cover;
+    transform: rotate(340deg);
+}
+.jsjs{
+	position: absolute;
+	top:850px; 
+    left:450px;
+    font-family: jojo; 
+    color: yellow;
+    font-size: 15px;
+}
+.cuadro3{
+	position: absolute;
+top:880px; 
+left:450px;
+width:120px; 
+height: 50px; 
+background: yellow;
+}
+.jkjk{
+	position: absolute;
+	top:880px; 
+    left:455px;
+    font-family: jojo; 
+     color: black;
+    font-size: 19px;
+}
+.jhjh{
+	position: absolute;
+	top:930px; 
+    left:435px;
+    font-family: jojo; 
+      color: yellow;
+    font-size: 13px;
+    text-align: center;
+}
+.jiji{
+	position: absolute;
+	top:1030px; 
+    left:445px;
+    font-family: jojo; 
+      color: yellow;
+    font-size: 20px;
+    text-align: center;
+}
+.chile{
+    position: absolute;
+    top:800px; 
+    left:1200px;
+    width:50px; 
+height: 50px;
+    background: url("chile.png");
+    background-size: cover;
+
+}
+.colombia{
+    position: absolute;
+    top:840px; 
+    left:1200px;
+    width:50px; 
+height: 50px;
+    background: url("colombia.png");
+    background-size: cover;
+}
+.bolivia{
+    position: absolute;
+    top:840px; 
+    left:1200px;
+    width:50px; 
+height: 50px;
+    background: url("bolivia.png");
+    background-size: cover;
+}
+.ecuador{
+    position: absolute;
+    top:880px; 
+    left:1200px;
+    width:50px; 
+height: 50px;
+    background: url("ecuador.png");
+    background-size: cover;
+}
+.paraguay{
+    position: absolute;
+    top:920px; 
+    left:1200px;
+    width:50px; 
+height: 50px;
+    background: url("paraguay.png");
+    background-size: cover;
+}
+.uruguay{
+    position: absolute;
+    top:960px; 
+    left:1200px;
+    width:50px; 
+height: 50px;
+    background: url("uruguay.png");
+    background-size: cover;
+}
+.pipi{
+	position: absolute;
+	top:810px; 
+    left:1100px;
+    font-family: ban; 
+      color: white;
+    font-size: 28px;
+    text-align: center;
+}
+.minititulo2{
+	position: absolute;
+	top:965px; 
+    left:630px;
+    font-family: minititulo; 
+    color: yellow;
+    font-size: 30px;
+}
+.minititulo3{
+	position: absolute;
+	top:965px; 
+    left:750px;
+    font-family: minititulo; 
+    color: #D8D8D8;
+    font-size: 30px;
+}
+.letra1{
+	position: absolute;
+	top:990px; 
+    left:595px;
+    font-family: titulo; 
+   color: orange;	
+    font-size: 100px;
+
+}
+.letra2{
+	position: absolute;
+	top:990px; 
+    left:645px;
+    font-family: titulo; 
+   color: yellow;	
+    font-size: 100px;
+}
+.letra3{
+	position: absolute;
+	top:990px; 
+    left:705px;
+    font-family: titulo; 
+   color: red;	
+    font-size: 100px;
+}
+.letra4{
+	position: absolute;
+	top:990px; 
+    left:765px;
+    font-family: titulo; 
+   color: green;	
+    font-size: 100px;
+}
+.letra5{
+	position: absolute;
+	top:990px; 
+    left:825px;
+    font-family: titulo; 
+   color: blue;	
+    font-size: 100px;
+}
+.letra6{
+	position: absolute;
+	top:990px; 
+    left:875px;
+    font-family: titulo; 
+   color: yellow;	
+    font-size: 100px;
+}
+.letra7{
+	position: absolute;
+	top:990px; 
+    left:925px;
+    font-family: titulo; 
+   color: pink;	
+    font-size: 100px;
+}
+.letra8{
+	position: absolute;
+	top:990px; 
+    left:985px;
+    font-family: titulo; 
+   color: purple;	
+    font-size: 100px;
+}
+.pipi2{
+	position: absolute;
+	top:1100px; 
+    left:750px;
+    font-family: ban; 
+      color: white;
+    font-size: 20px;
+    text-align: center;
+}
